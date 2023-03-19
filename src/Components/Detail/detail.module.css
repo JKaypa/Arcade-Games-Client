@@ -1,0 +1,82 @@
+.flexContainer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.gridContainer{
+  padding: 0 25%;
+  padding-top: 120px;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(60%, 40%));
+  gap: 20px;
+  overflow:hidden;
+}
+
+.titles{
+  font-family: Orbitron;
+  color: hsl(252, 85%, 55%);
+}
+
+
+.name{
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  grid-column: 1/3;
+  font-size: x-large;
+  border-radius: 10px;
+  background-color: hsl(250, 15%, 14%);
+}
+
+.image{
+  grid-column: 1/2;
+  grid-row: 2/6;
+  width: 100%
+}
+
+.description{
+  text-align: justify;
+  text-justify: inter-word;
+  grid-column: 1/3;
+}
+
+.buttons{
+  height: 120px;
+  grid-column: 1/3;
+  display: flex;
+  align-items: start;
+  justify-content: space-between;
+}
+
+.update{
+  width: 60%;
+  padding: 15px;
+  margin-bottom: 15px;
+  color: white;
+  background-color: hsl(252, 85%, 55%);
+  border: none;
+  border-radius: 8px;
+  font-family: Orbitron;
+  transition: .3s;
+}
+
+.update:hover{
+  letter-spacing: .25em;
+  color: white;
+  background-color: hsl(252, 85%, 55%);
+  box-shadow: 0 0 45px hsl(252, 85%, 55%);
+  border: 2px solid hsl(252, 85%, 85%);
+}
+
+.delete{
+  padding: 10px;
+}
+
+.message{
+  width: 100%;
+  font-family: 'Press Start 2P', cursive;
+  text-align: center;
+}

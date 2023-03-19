@@ -1,0 +1,43 @@
+.navbar{
+  padding: 40px;
+  width: 100%;
+  height: 100px;
+  position:fixed;
+  z-index: 1;
+  backdrop-filter: blur(10px);
+  border-bottom: 1px solid hsla(250, 10%, 8%);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo{
+  width: 4%;
+}
+
+.input[type=text]{
+  font-family: 'Press Start 2P';
+  color: white;
+  padding: 8px;
+  width: 70%;
+  height: 200%;
+  border-radius: 10px;
+  background-color: hsla(250, 5%, 15%);
+  border: none
+}
+
+.input:focus{
+  border: 1px solid hsl(252, 85%, 55%);
+  outline: none;
+}
+
+.links {
+  font-size: small;
+  font-family: 'Orbitron', cursive;
+  color: white;
+  transition: .2s;
+}
+
+.links:hover {
+  color: hsl(252, 85%, 55%);
+}
